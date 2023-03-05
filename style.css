@@ -1,0 +1,122 @@
+body{
+    background-image:url(https://i.pinimg.com/originals/ef/cd/07/efcd07c308613985c7e8bea81970120a.jpg);
+    margin:0;
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-position:center;
+    width:100%;
+    }
+    
+    #title{
+      font-size:45px;
+      margin-top:30px;
+      color: #4d0000
+    }
+    
+    #description{
+      font-size:20px;
+      margin:30px;
+      font-style:italic;
+      color:black;
+    
+    }
+    
+    h1,p{
+    text-align:center; 
+    }
+    
+    #survey-form{
+    background-color:rgb(222, 184, 135);
+    width:80%; 
+    margin:0 auto;
+    border-radius:1%;
+    font-size:25px;
+    }
+    
+    .form-div{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto 1.25rem auto;
+    padding:0.25rem;
+    }
+    
+    label{
+      margin-bottom:10px;
+      width:90%;
+      padding:10px;
+      font-size:20px;
+      text-align:center;
+      display:flex;
+      flex-direction:row;
+    }
+    
+    .information input, textarea{
+    width:90%; 
+    margin:7px; 
+    margin-top:10px;
+    background-color:#FFF8DC;
+    align-items:center;
+    justify-content:center;
+    padding:6px;
+    border-radius:5px;
+    
+    }
+    
+    /*Ceci change que la barre selectionez votre saveur*/
+    select{
+    width:90%; 
+    margin:7px; 
+    margin-left:10px;
+    margin-top:10px;
+    background-color:#FFF8DC;
+    padding:4px;
+    border-radius:5px;
+    }
+    
+    #gateau{
+      text-align:center;
+      margin-bottom:20px;
+      font-family: Arial;
+      font-weight:600;
+    }
+    
+    
+    /*Ceci change que les reponses*/
+    #reponses{
+    border-bottom:solid;
+    border-color:brown;
+    font-size: 40px;
+    }
+    
+    .fieldset{
+     border-style:none;
+     margin-bottom:20px;
+    height:200px;
+    }
+    
+    #ideas-title{
+    display: flex;
+    align-items:center;
+    text-align:center;
+    margin:7px 7px;
+    padding:0px;
+    font-weight:600;
+    font-size: 19px;
+    font-family: Arial;  
+    }
+    
+    #ideas{
+    margin-left:20px;
+    padding:10px auto; 
+    }
+    
+    #submit{
+    display: row;
+    align-items:center;
+    flex-direction:center;
+    padding:5px;
+    width:90%;
+    margin:40px
+    }

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sonia's backery form :)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta charset="UTF=8">
+    <link rel="stylesheet" href="style.css" /> 
+  </head>
+  <body>
+    <h1 id="title">Sonia's backery form ❤</h1>
+    <p id="description">Hello, remplissez le formulaire pour ameillorer le service, merci.</p>
+   <form id="survey-form">
+
+     <! -- début information -->
+
+    <section class="information">
+     <div class="form-div">
+     <label id="name-label">Nom  <input id="name" name=" name" type="text" placeholder="Ecrivez votre nom/prénom" required></label>
+     </div>
+     <div class="form-div">
+     <label id="email-label">Email<input id="email" name="email" type="email" placeholder="Ecrivez votre email" required></label>
+     </div>
+     <div class="form-div">
+     <label id="number-label">Age  <input id="number" name="age" type="number" min="13" max="120" placeholder="Ecrivez votre age"></label>
+     </div>
+</section>
+
+<! -- début questions -->
+
+     <div class="form-div" id="question">
+       <div id="gateau" id="dropdown-label" class="label">Quel est votre gâteau préféré?</div>
+       <select id="dropdown">
+        <option id="saveur">Selectionez votre saveur préferé</option>
+            <option>Vanille</option>
+            <option>Chocolat</option>
+            <option>Carotte</option>
+            <option>Citron</option>
+       </select>
+       </div>
+    
+       <div id="question">
+        <div id="gateau">Quelle décoration préferez vous?</div>
+       <fieldset class="fieldset" id="reponses">
+         <label for="fruits"><input type="radio" id="fruits" name="choise" class="inline" value="fruits"> Fruits</label>
+      <label><input type="radio" id="dessin" name="choise" class="inline" value="dessin"> Dessins/Toppers</label>
+    <label><input type="radio" id="photos" name="choise" class="inline" value="photos"> Photos</label>
+    <label><input type="radio" id="couleur" name="choise" class="inline" value="couleur">Couleur Simple</label>
+       </fieldset>
+       </div>
+       <div id="gateau"> Quelle garniture préferez vous?</div>
+         <fieldset class="fieldset" id="reponses">
+           <div>
+         <label><input type="checkbox" name="new" class="inline" id="chantilly" value="1"/> Chantilly</label>
+         </div>
+         <div>
+         <label><input type="checkbox" name="new"  id="chocolat"value="2"/> Chocolat</label>
+         </div>
+         <div>
+         <label><input type="checkbox" name="new" id="caramel/" value="3"/> Caramel salé</label>
+       </div>
+     </fieldset>
+
+       <div id="question4"> 
+         <label id="ideas-title">Suggérez d'autres options: </label>
+         <textarea type="text area" id="ideas" name="ideas" rows="3" cols="30" placeholder="Soyez créatifs..."></textarea>
+       </div>
+       <input type="submit" value="Envoyer" id="submit"/>
+     </form> 
+  </body>
+ 
+</html>
